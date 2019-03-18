@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="c.css">
+      <title>Learn IndexedDB -mozilla training demo</title>
+   </head>
+   <body>
+      <header>
+	 <h1>Learn IndexedDB 04 -mozilla</h1>
+      </header>
+
+      <main>
+
+      <section class="note-display">
+	 <h2>All Notes</h2>
+	 <button id="loadAll">load all</button>
+	 <ul id="allNotes">
+	 <!-- 
+     appended <li> will contain a delete button 
+     with className deleteEntry 
+	 -->
+	 </ul>
+      </section>
+
+      <section class="new-note">
+	 <h2>Enter a new note</h2>
+	 <div>
+	    <label for="title">Note title</label>
+	    <input id="title" type="text" required>
+	 </div>
+	 <div>
+	    <label for="body">Note text</label>
+	    <input id="body" type="text" required>
+	 </div>
+	 <button id="createNewNote" disabled="false">Create new note</button>
+      </section>
+
+      </main>
+
+      <script src="j.js"></script>
+   </body>
+</html>
